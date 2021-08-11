@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon/icomoon.eot?srf3rx');
+  src: url('../fonts/icomoon/icomoon.eot?srf3rx#iefix')
+      format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.ttf?srf3rx') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?srf3rx') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?srf3rx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  color: rgb(82, 51, 221);
+  text-align: center;
+}
+
+#white {
+  color: rgb(251, 251, 251);
+}
+
+row {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#myHeader {
+  margin-bottom: 100px;
+}
+
+#margintop {
+  margin-top: 50px;
+  text-align: center;
+}
+#center {
+  text-align: center;
+  padding: 20px;
+}
+#par-title {
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+}
+#justify {
+  text-align: justify;
+  padding: 10px;
+}
+#right {
+  text-align: right;
+  padding: 10px;
+}
+#f {
+  text-align: center;
+  font-size: 12px;
+}
+
+#font20 {
+  font-size: 10px;
+}
+
+.box-shadow {
+  box-shadow: 7px 7px 7px #666666;
+}
+
+#width {
+  min-width: 300px;
+  width: auto !important;
+  width: 300px;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+*/
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+header {
+  padding: 10px 16px;
+  background: #2c3e50;
+  color: #fff;
+  position: fixed;
+  line-height: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.main {
+  background: #f2f2f2;
+}
+
+.color1 {
+  background: #34495e;
+  color: #fff;
+}
+body {
+  background-image: url(../images/backg5.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+#xd-footer {
+  padding: 2em 0;
+  background: #2c3e50;
+  color: #fff;
+  margin-top: 00px;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin-bottom: 25px;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
